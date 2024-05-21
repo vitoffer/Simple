@@ -1,0 +1,68 @@
+.sketchbook {
+	padding-bottom: 0;
+}
+
+.sketchbook__inner {
+	display: flex;
+	justify-content: center;
+	column-gap: 30px;
+}
+
+.sketchbook__info {
+	margin-top: 24px;
+}
+
+.sketchbook__description {
+	padding-block: 8px 30px;
+}
+
+@media (max-width: 1180px) {
+	.sketchbook__info {
+		margin: 0 0 48px 4vw;
+	}
+}
+
+@media (max-width: 1024px) {
+	.sketchbook__inner {
+		max-width: 100vw;
+	}
+
+	.sketchbook__info {
+		margin-bottom: 60px;
+	}
+
+	.sketchbook__image {
+		margin-right: calc(-1 * var(--container-padding-x));
+	}
+
+	.sketchbook__image * {
+		width: 40vw;
+		height: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.sketchbook__inner {
+		flex-direction: column;
+		align-items: center;
+		max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+	}
+
+	.sketchbook__image {
+		order: -1;
+	}
+
+	.sketchbook__image * {
+		width: initial;
+	}
+}
+
+@media (max-width: 570px) {
+	.sketchbook__image {
+		margin: 0;
+	}
+
+	.sketchbook__image * {
+		max-width: 100%;
+	}
+}

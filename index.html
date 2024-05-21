@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Simple</title>
+		<link
+			rel="stylesheet"
+			href="styles/main.css" />
+		<script
+			src="scripts/script.js"
+			defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__inner container">
+				<a
+					href="#"
+					class="logo"
+					><img
+						src="/images/icons/logo.svg"
+						alt="Simple"
+						width="140"
+						height="23"
+						class="logo-image" />
+				</a>
+
+				<nav class="menu">
+					<ul class="menu-list">
+						<li class="menu-item">
+							<a
+								href="#"
+								class="menu-link"
+								>Продукция</a
+							>
+						</li>
+						<li class="menu-item">
+							<a
+								href="#"
+								class="menu-link"
+								>Материалы</a
+							>
+						</li>
+						<li class="menu-item">
+							<a
+								href="#"
+								class="menu-link"
+								>О нас</a
+							>
+						</li>
+						<li class="menu-item">
+							<a
+								href="#"
+								class="menu-link"
+								>Контакты</a
+							>
+						</li>
+					</ul>
+				</nav>
+
+				<ul class="user-actions-list">
+					<li class="user-actions-item">
+						<button
+							type="button"
+							id="mobileMenuShowButton"
+							class="user-actions-button burger-button">
+							<img
+								src="/images/icons/burger-button.svg"
+								alt="Open menu"
+								class="user-action-image" />
+						</button>
+						<nav
+							class="mobile-menu"
+							id="mobileMenu">
+							<ul class="mobile-menu-list">
+								<li class="mobile-menu-item">
+									<button
+										type="button"
+										id="mobileMenuCloseButton"
+										class="button-cross"></button>
+								</li>
+								<li class="mobile-menu-item">
+									<a
+										href="#"
+										class="mobile-menu-link"
+										>Продукция</a
+									>
+								</li>
+								<li class="mobile-menu-item">
+									<a
+										href="#"
+										class="mobile-menu-link"
+										>Материалы</a
+									>
+								</li>
+								<li class="mobile-menu-item">
+									<a
+										href="#"
+										class="mobile-menu-link"
+										>О нас</a
+									>
+								</li>
+								<li class="mobile-menu-item">
+									<a
+										href="#"
+										class="mobile-menu-link"
+										>Контакты</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</li>
+					<li class="user-actions-item">
+						<a
+							href="#"
+							class="user-actions-link"
+							><img
+								src="/images/icons/search.svg"
+								alt="Поиск"
+								width="24"
+								height="24"
+								class="user-action-image"
+						/></a>
+					</li>
+					<li class="user-actions-item">
+						<a
+							href="#"
+							class="user-actions-link"
+							><img
+								src="/images/icons/login.svg"
+								alt="Войти"
+								width="24"
+								height="24"
+								class="user-action-image"
+						/></a>
+					</li>
+				</ul>
+			</div>
+			<div class="header__hr"></div>
+		</header>
+		<main class="main">
+			<section class="section hero">
+				<div class="hero__inner container">
+					<div class="hero__info">
+						<h1 class="hero__title">
+							Простые вещи. <br />
+							Из бумаги
+						</h1>
+						<p class="hero__description">
+							Бума́га (предположительно от итал. bombagia, первоисточником же
+							считается иранский) — волокнистый материал с минеральными
+							добавками.
+						</p>
+						<button
+							type="button"
+							class="button">
+							Каталог
+						</button>
+					</div>
+
+					<picture class="hero__image">
+						<source
+							media="(min-width: 1180px)"
+							srcset="/images/hero-desktop.png" />
+						<source
+							media="(max-width: 1180px) and (min-width: 768px)"
+							srcset="/images/hero-tablet.png" />
+						<source
+							media="(max-width: 767px)"
+							srcset="/images/hero-tablet-small.png" />
+						<img
+							src="/images/hero-tablet-small.png"
+							alt="Фотография бумаги" />
+					</picture>
+				</div>
+			</section>
+			<section class="section whiteness">
+				<div class="whiteness__inner container">
+					<ul class="whiteness__versions-list">
+						<h3 class="visually-hidden">Versions</h3>
+						<li class="whiteness__versions-item">
+							<img
+								src="/images/whiteness/1.png"
+								alt="Cut sheet"
+								width="160"
+								height="118"
+								class="whiteness__item-image" />
+							<div class="whiteness__item-info">
+								<h4 class="whiteness__item-title">V.1</h4>
+								<p class="whiteness__item-description">
+									Результат вашего обучения
+								</p>
+							</div>
+						</li>
+						<li class="whiteness__versions-item">
+							<img
+								src="/images/whiteness/2.png"
+								alt="Cut sheet"
+								width="160"
+								height="118"
+								class="whiteness__item-image" />
+							<div class="whiteness__item-info">
+								<h4 class="whiteness__item-title">V.2</h4>
+								<p class="whiteness__item-description">
+									Результат вашего обучения
+								</p>
+							</div>
+						</li>
+						<li class="whiteness__versions-item">
+							<img
+								src="/images/whiteness/3.png"
+								alt="Cut sheet"
+								width="160"
+								height="118"
+								class="whiteness__item-image" />
+							<div class="whiteness__item-info">
+								<h4 class="whiteness__item-title">V.3</h4>
+								<p class="whiteness__item-description">
+									Результат вашего обучения
+								</p>
+							</div>
+						</li>
+					</ul>
+					<div class="whiteness__main">
+						<img
+							src="/images/whiteness/main-picture.png"
+							alt="Cut sheet"
+							width="730"
+							height="564"
+							class="whiteness__main-image" />
+						<div class="whiteness__info">
+							<h2 class="whiteness__title">Максимальная белизна</h2>
+							<div class="whiteness__description">
+								<p class="whiteness__description-text">
+									Для повышения белизны, гладкости и мягкости в состав бумажной
+									массы вводят белые минеральные вещества: мел, тальк, каолин и
+									др. Эта операция называется наполнением.
+								</p>
+								<p class="whiteness__description-text">
+									Отлив бумажного листа осуществляют на бумагоделательной
+									машине, важнейшей частью которой является непрерывно
+									движущаяся (как транспортер) металлическая или капроновая
+									сетка.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section products">
+				<div class="products__inner container">
+					<h2 class="visually-hidden">Товары</h2>
+					<ul class="products__list">
+						<li class="product__item">
+							<img
+								src="/images/products/1.jpg"
+								alt='Картинка товара "Упаковка"'
+								width="255"
+								height="180"
+								class="product__image" />
+							<div class="product__text">
+								<h3 class="product__title">Упаковка</h3>
+								<p class="product__count">Тираж: от 50 штук</p>
+								<p class="product__description">
+									Сделано из крафт-бумаги или плотного картона. Упаковки имеют
+									различные формы и расцветки, изготовим форму под заказ.
+								</p>
+							</div>
+							<a
+								href="#"
+								class="product__link"
+								><span class="product__see-more">Подробнее</span></a
+							>
+						</li>
+						<li class="product__item">
+							<img
+								src="/images/products/2.jpg"
+								alt='Картинка товара "Упаковка"'
+								width="255"
+								height="180"
+								class="product__image" />
+							<div class="product__text">
+								<h3 class="product__title">Пакеты</h3>
+								<p class="product__count">Тираж: от 200 штук</p>
+								<p class="product__description">
+									С прямоугольным дном. От 10 см до 60 см по высоте. Материалы:
+									картон, крафт-бумага. Различные расцветки и дизайн.
+								</p>
+							</div>
+							<a
+								href="#"
+								class="product__link"
+								><span class="product__see-more">Подробнее</span></a
+							>
+						</li>
+						<li class="product__item">
+							<img
+								src="/images/products/3.jpg"
+								alt='Картинка товара "Упаковка"'
+								width="255"
+								height="180"
+								class="product__image" />
+							<div class="product__text">
+								<h3 class="product__title">Кейсы</h3>
+								<p class="product__count">Тираж: от 30 штук</p>
+								<p class="product__description">
+									Подойдет для документов и других бумаг. Различные расцветки,
+									размеры и плотность. Материал: прессованная бумага.
+								</p>
+							</div>
+							<a
+								href="#"
+								class="product__link"
+								><span class="product__see-more">Подробнее</span></a
+							>
+						</li>
+						<li class="product__item">
+							<img
+								src="/images/products/4.jpg"
+								alt='Картинка товара "Упаковка"'
+								width="255"
+								height="180"
+								class="product__image" />
+							<div class="product__text">
+								<h3 class="product__title">Другие изделия</h3>
+								<p class="product__count">Тираж: от 100 штук</p>
+								<p class="product__description">
+									Нестандартные упаковки, кейсы и другие изделия различных
+									размеров и конфигураций. Изготовим в кратчайшие сроки.
+								</p>
+							</div>
+							<a
+								href="#"
+								class="product__link"
+								><span class="product__see-more">Подробнее</span></a
+							>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section companies">
+				<div class="companies__inner container">
+					<ul class="companies__list">
+						<li class="company__item">
+							<img
+								src="/images/companies/1.png"
+								alt="Hahnemϋhle"
+								width="255"
+								height="135"
+								class="company__image" />
+						</li>
+						<li class="company__item">
+							<img
+								src="/images/companies/2.png"
+								alt="Canson"
+								width="255"
+								height="135"
+								class="company__image" />
+						</li>
+						<li class="company__item">
+							<img
+								src="/images/companies/3.png"
+								alt="Royal Talens"
+								width="255"
+								height="135"
+								class="company__image" />
+						</li>
+						<li class="company__item">
+							<img
+								src="/images/companies/4.png"
+								alt="Fabriano"
+								width="255"
+								height="135"
+								class="company__image" />
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="section sketchbook">
+				<div class="sketchbook__inner container">
+					<div class="sketchbook__info">
+						<h2 class="sketchbook__title">Simple скетчбук</h2>
+						<p class="sketchbook__description">
+							80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и
+							для графики и для акварели. Для самых смелых творческих замыслов!
+						</p>
+						<button class="button">Купить</button>
+					</div>
+					<picture class="sketchbook__image">
+						<source
+							media="(min-width: 1180px)"
+							srcset="/images/sketchbook-desktop.png" />
+						<source
+							media="(max-width: 1180px) and (min-width: 1025px)"
+							srcset="/images/sketchbook.png" />
+						<source
+							media="(max-width: 1024px) and (min-width: 768px)"
+							srcset="/images/sketchbook-tablet.png" />
+						<source
+							media="(max-width: 767px)"
+							srcset="/images/sketchbook.png" />
+						<img
+							src="/images/sketchbook.png"
+							alt="Фотография бумаги" />
+					</picture>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer-top">
+				<div class="footer-top__inner container">
+					<a
+						href="#"
+						class="logo footer__logo"
+						><img
+							src="/images/icons/logo-light.svg"
+							alt="Simple"
+							width="140"
+							height="23"
+							class="logo-image" />
+					</a>
+					<ul class="footer__links-list">
+						<li class="footer__link-item">
+							<a
+								href="#"
+								class="footer__link-clickable"
+								><img
+									src="/images/icons/facebook.svg"
+									alt="Facebook link"
+							/></a>
+						</li>
+						<li class="footer__link-item">
+							<a
+								href="#"
+								class="footer__link-clickable"
+								><img
+									src="/images/icons/twitter.svg"
+									alt="Facebook link"
+							/></a>
+						</li>
+						<li class="footer__link-item">
+							<a
+								href="#"
+								class="footer__link-clickable"
+								><img
+									src="/images/icons/instagram.svg"
+									alt="Facebook link"
+							/></a>
+						</li>
+						<li class="footer__link-item">
+							<a
+								href="#"
+								class="footer__link-clickable"
+								><img
+									src="/images/icons/youtube.svg"
+									alt="Facebook link"
+							/></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">SIMPLE &reg; 2021</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+:root {
+	--white: #fff;
+	--light: #ebebeb;
+	--light-gray: #b5b5bd;
+	--gray-accent: #666666;
+	--gray-main: #85859b;
+	--gray-border: #c4c4c4;
+	--gray-horizontal-line: #ddd;
+	--dark-gray: #4c5866;
+	--light-blue: #7875fe;
+	--dim-light-blue: #dad9fb;
+	--blue: #4946b4;
+
+	--border: 1px solid var(--light-blue);
+	--border-alternate: 1px solid var(--gray-border);
+
+	--button-height: 70px;
+	--button-width: 255px;
+
+	--container-width: 1110px;
+	--container-padding-x: 15px;
+
+	--section-padding-y: 90px;
+
+	--font-family: "Roboto";
+
+	--transition-duration: 0.2s;
+}

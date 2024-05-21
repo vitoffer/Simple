@@ -1,0 +1,47 @@
+.container {
+	max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+	padding-inline: var(--container-padding-x);
+	margin-inline: auto;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	margin: -1px !important;
+	border: 0 !important;
+	padding: 0 !important;
+	white-space: nowrap !important;
+	clip-path: inset(100%) !important;
+	clip: rect(0 0 0 0) !important;
+	overflow: hidden !important;
+}
+
+.section {
+	padding-block: var(--section-padding-y);
+}
+
+.button {
+	border: var(--border);
+	font-size: 20px;
+	color: var(--light-blue);
+	width: var(--button-width);
+	height: var(--button-height);
+}
+
+@media (hover: hover) {
+	.button:hover {
+		background-color: var(--light-blue);
+		color: var(--white);
+	}
+}
+
+.button:focus {
+	background-color: var(--dim-light-blue);
+	color: var(--light-blue);
+}
+
+.button:active {
+	background-color: var(--blue);
+	color: var(--white);
+}

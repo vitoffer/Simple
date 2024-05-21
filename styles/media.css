@@ -1,0 +1,65 @@
+/*
+		Desktops
+		1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+}
+
+@media (min-width: 1025px) {
+	:root {
+		--container-padding-x: 39px;
+	}
+}
+
+/*
+		Laptops, Desktops
+		B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/*
+		Tablets, Ipads (portrait)
+		B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	:root {
+		--container-width: 690px;
+		--container-padding-x: 39px;
+	}
+}
+
+@media (max-width: 1024px) {
+	:root {
+		--container-padding-y: 60px;
+	}
+}
+
+/*
+		Tablets, Ipads (landscape)
+		B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*
+		Low Resolution Tablets, Mobiles (Landscape)
+		B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+	:root {
+		--container-width: 510px;
+		--container-padding-x: 33px;
+	}
+}
+
+/*
+		Most of the Smartphones Mobiles (Portrait)
+		B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+	:root {
+		--container-width: 100%;
+		--container-padding-x: 15px;
+	}
+}
